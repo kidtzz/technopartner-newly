@@ -52,12 +52,12 @@ class Home extends React.Component {
     return (
       <View>
         <Image
-          source={require('../../../assets/logo_technopartner.png')}
+          source={require('../../assets/logo_technopartner.png')}
           style={{width: 150, height: 50}}
         />
         <ScrollView>
           <ImageBackground
-            source={require('../../../assets/motif.png')}
+            source={require('../../assets/motif.png')}
             style={{width: width, height: height * 0.3}}>
             <View style={{margin: '5%'}}>
               <View
@@ -162,19 +162,19 @@ class Home extends React.Component {
             index={0}
             pageSize={width}>
             <Image
-              source={require('../../../assets/logo_technopartner.png')}
+              source={require('../../assets/logo_technopartner.png')}
               style={{width: width, height: 200}}
             />
             <Image
-              source={require('../../../assets/logo_technopartner.png')}
+              source={require('../../assets/logo_technopartner.png')}
               style={{width: width, height: 200}}
             />
             <Image
-              source={require('../../../assets/logo_technopartner.png')}
+              source={require('../../assets/logo_technopartner.png')}
               style={{width: width, height: 200}}
             />
             <Image
-              source={require('../../../assets/logo_technopartner.png')}
+              source={require('../../assets/logo_technopartner.png')}
               style={{width: width, height: 200}}
             />
           </Carousel>

@@ -10,7 +10,7 @@ class QRCode extends React.Component {
         <TouchableOpacity onPress={() => navigation.push('Home')}>
           <View style={{margin: 15, flexDirection: 'row-reverse'}}>
             <Image
-              source={require('../../../assets/cross.png')}
+              source={require('../../assets/cross.png')}
               style={{width: 15, height: 15}}
             />
           </View>

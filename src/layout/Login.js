@@ -32,7 +32,7 @@ class Login extends React.Component {
     return (
       <View style={style.view}>
         <Image
-          source={require('../../assets/logo_technopartner.png')}
+          source={require('../assets/logo_technopartner.png')}
           style={{width: '100%', height: 100}}
         />
 

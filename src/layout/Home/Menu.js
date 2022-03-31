@@ -123,7 +123,7 @@ class Menu extends React.Component {
                     alignItems: 'center',
                   }}>
                   <Image
-                    source={require('../../../assets/menu1.png')}
+                    source={require('../../assets/menu1.png')}
                     style={{height: 70, width: 70}}
                   />
                 </View>
@@ -174,7 +174,7 @@ class Menu extends React.Component {
                     alignItems: 'center',
                   }}>
                   <Image
-                    source={require('../../../assets/menu1.png')}
+                    source={require('../../assets/menu1.png')}
                     style={{height: 70, width: 70}}
                   />
                 </View>
@@ -225,7 +225,7 @@ class Menu extends React.Component {
                     alignItems: 'center',
                   }}>
                   <Image
-                    source={require('../../../assets/menu1.png')}
+                    source={require('../../assets/menu1.png')}
                     style={{height: 70, width: 70}}
                   />
                 </View>
@@ -276,7 +276,7 @@ class Menu extends React.Component {
                     alignItems: 'center',
                   }}>
                   <Image
-                    source={require('../../../assets/menu1.png')}
+                    source={require('../../assets/menu1.png')}
                     style={{height: 70, width: 70}}
                   />
                 </View>

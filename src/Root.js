@@ -13,18 +13,18 @@ import QRCode from '.screens/Home/QRCode';
 const Stack = createStackNavigator();
 const BottomTab = createBottomTabNavigator();
 
-const StackHomeSreen = () => (
-  <Stack.Navigator headerMode="none">
-    <Stack.Screen name="Home" component={Home} />
-    <Stack.Screen name="QRCode" component={QRCode} />
-  </Stack.Navigator>
-);
-
 const TabHomeScreen = () => (
   <BottomTab.Navigator tabBar={props => <MyTabBar {...props} />}>
     <BottomTab.Screen name="Home" component={StackHomeSreen} />
     <BottomTab.Screen name="Menu" component={Menu} />
   </BottomTab.Navigator>
+);
+
+const StackHomeSreen = () => (
+  <Stack.Navigator headerMode="none">
+    <Stack.Screen name="Home" component={Home} />
+    <Stack.Screen name="QRCode" component={QRCode} />
+  </Stack.Navigator>
 );
 
 export default Root = () => (
@@ -104,12 +104,12 @@ function MyTabBar({state, descriptors, navigation}) {
 function getImg(index, isFocused) {
   if (index === 0) {
     return isFocused
-      ? require('../assets/home1.png')
-      : require('../assets/home2.png');
+      ? require('./assets/home1.png')
+      : require('./assets/home2.png');
   } else if (index === 1) {
     return isFocused
-      ? require('../assets/menu1.png')
-      : require('../assets/menu2.png');
+      ? require('./assets/menu1.png')
+      : require('./assets/menu2.png');
   }
   return;
 }
